@@ -1,0 +1,6 @@
+version: '3.1'
+services:
+  code-snippets-machine-learning:
+    build: .
+    volumes:
+      - ./:/app
