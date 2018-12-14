@@ -9,7 +9,10 @@ RUN apk --update-cache \
     gfortran \
     openblas-dev \
     python3 \
-    python3-dev
+    python3-dev \
+    freetype-dev \
+    libpng-dev
+
 
 RUN pip3 install --upgrade pip 
 
